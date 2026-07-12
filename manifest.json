@@ -1,0 +1,30 @@
+{
+  "id": "agent-governance-control-tower",
+  "title": "Agent Governance Control Tower App",
+  "industry": "Legal, Compliance & Risk",
+  "industryId": "legal-compliance-risk",
+  "specialization": "Agent Governance Control Tower",
+  "sourcePlatformGroup": "regulatory-grc-platform",
+  "sources": [
+    "ai-agent-governance-control-tower",
+    "ai-board-governance-briefing-assistant",
+    "ai-product-compliance-evidence-vault",
+    "ai-regulatory-change-impact-mapper"
+  ],
+  "featureCount": 6,
+  "candidateFeatureCount": 9,
+  "eliminatedSimilarFeatures": 3,
+  "evidenceCount": 61,
+  "aiPageCount": 0,
+  "sourceAIPageCount": 0,
+  "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
+  "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
+  "database": "database.sqlite",
+  "databaseSeed": {
+    "seededProjects": 0,
+    "seededTables": 0,
+    "seededRows": 0
+  },
+  "visibleFeatureCount": 6,
+  "featureVisibilityMode": "source-backed-fallback"
+}

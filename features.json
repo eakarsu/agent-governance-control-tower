@@ -1,0 +1,600 @@
+[
+  {
+    "name": "Features",
+    "canonicalKey": "feature",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/features"
+    ],
+    "sourceProjects": [
+      "AIDivorceFamilyLawNavigator",
+      "ai-agent-governance-control-tower",
+      "ai-board-governance-briefing-assistant",
+      "ai-product-compliance-evidence-vault",
+      "ai-regulatory-change-impact-mapper",
+      "ai-software-procurement-negotiator",
+      "ai-vendor-contract-risk-monitor",
+      "legalForms"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/agent-governance-control-tower",
+      "legal-compliance-risk/firmflow-ai-merged",
+      "legal-compliance-risk/tenant-rights-advisor",
+      "legal-compliance-risk/vendor-contract-risk-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "legalForms",
+        "path": "server.js:1064",
+        "route": "/features",
+        "originApp": "legal-compliance-risk/firmflow-ai-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDivorceFamilyLawNavigator",
+        "path": "server/routes/aiCenter.js:44",
+        "route": "/features",
+        "originApp": "legal-compliance-risk/tenant-rights-advisor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-agent-governance-control-tower",
+        "path": "frontend/src/app/(protected)/features/page.tsx",
+        "route": "/features",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-board-governance-briefing-assistant",
+        "path": "frontend/src/app/(protected)/features/page.tsx",
+        "route": "/features",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-product-compliance-evidence-vault",
+        "path": "frontend/src/app/(protected)/features/page.tsx",
+        "route": "/features",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-regulatory-change-impact-mapper",
+        "path": "frontend/src/app/(protected)/features/page.tsx",
+        "route": "/features",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-software-procurement-negotiator",
+        "path": "frontend/src/app/(protected)/features/page.tsx",
+        "route": "/features",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-vendor-contract-risk-monitor",
+        "path": "frontend/src/app/(protected)/features/page.tsx",
+        "route": "/features",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      }
+    ]
+  },
+  {
+    "name": "Layout",
+    "canonicalKey": "layout",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/",
+      "/dashboard"
+    ],
+    "sourceProjects": [
+      "ai-agent-governance-control-tower",
+      "ai-board-governance-briefing-assistant",
+      "ai-product-compliance-evidence-vault",
+      "ai-regulatory-change-impact-mapper",
+      "ai-software-procurement-negotiator",
+      "ai-vendor-contract-risk-monitor",
+      "ai_procurement_management",
+      "firmflow-ai",
+      "smallLawFirm"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/agent-governance-control-tower",
+      "legal-compliance-risk/firmflow-ai-merged",
+      "legal-compliance-risk/vendor-contract-risk-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "firmflow-ai",
+        "path": "app/(dashboard)/layout.tsx",
+        "route": "/",
+        "originApp": "legal-compliance-risk/firmflow-ai-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "firmflow-ai",
+        "path": "app/dashboard/layout.tsx",
+        "route": "/dashboard",
+        "originApp": "legal-compliance-risk/firmflow-ai-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "firmflow-ai",
+        "path": "app/layout.tsx",
+        "route": "/",
+        "originApp": "legal-compliance-risk/firmflow-ai-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "smallLawFirm",
+        "path": "src/app/(dashboard)/layout.tsx",
+        "route": "/",
+        "originApp": "legal-compliance-risk/firmflow-ai-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "smallLawFirm",
+        "path": "src/app/layout.tsx",
+        "route": "/",
+        "originApp": "legal-compliance-risk/firmflow-ai-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-agent-governance-control-tower",
+        "path": "frontend/src/app/(protected)/layout.tsx",
+        "route": "/",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-agent-governance-control-tower",
+        "path": "frontend/src/app/layout.tsx",
+        "route": "/",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-board-governance-briefing-assistant",
+        "path": "frontend/src/app/(protected)/layout.tsx",
+        "route": "/",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-board-governance-briefing-assistant",
+        "path": "frontend/src/app/layout.tsx",
+        "route": "/",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-product-compliance-evidence-vault",
+        "path": "frontend/src/app/(protected)/layout.tsx",
+        "route": "/",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-product-compliance-evidence-vault",
+        "path": "frontend/src/app/layout.tsx",
+        "route": "/",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-regulatory-change-impact-mapper",
+        "path": "frontend/src/app/(protected)/layout.tsx",
+        "route": "/",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-regulatory-change-impact-mapper",
+        "path": "frontend/src/app/layout.tsx",
+        "route": "/",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-software-procurement-negotiator",
+        "path": "frontend/src/app/(protected)/layout.tsx",
+        "route": "/",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-software-procurement-negotiator",
+        "path": "frontend/src/app/layout.tsx",
+        "route": "/",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-vendor-contract-risk-monitor",
+        "path": "frontend/src/app/(protected)/layout.tsx",
+        "route": "/",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-vendor-contract-risk-monitor",
+        "path": "frontend/src/app/layout.tsx",
+        "route": "/",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai_procurement_management",
+        "path": "frontend/src/app/layout.tsx",
+        "route": "/",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      }
+    ]
+  },
+  {
+    "name": "Not Found",
+    "canonicalKey": "found not",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/",
+      "/intake"
+    ],
+    "sourceProjects": [
+      "ai-agent-governance-control-tower",
+      "ai-board-governance-briefing-assistant",
+      "ai-product-compliance-evidence-vault",
+      "ai-regulatory-change-impact-mapper",
+      "ai-software-procurement-negotiator",
+      "ai-vendor-contract-risk-monitor",
+      "legalForms"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/agent-governance-control-tower",
+      "legal-compliance-risk/firmflow-ai-merged",
+      "legal-compliance-risk/vendor-contract-risk-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "legalForms",
+        "path": "views/intake/not-found.ejs",
+        "route": "/intake",
+        "originApp": "legal-compliance-risk/firmflow-ai-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-agent-governance-control-tower",
+        "path": "frontend/src/app/not-found.tsx",
+        "route": "/",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-board-governance-briefing-assistant",
+        "path": "frontend/src/app/not-found.tsx",
+        "route": "/",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-product-compliance-evidence-vault",
+        "path": "frontend/src/app/not-found.tsx",
+        "route": "/",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-regulatory-change-impact-mapper",
+        "path": "frontend/src/app/not-found.tsx",
+        "route": "/",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-software-procurement-negotiator",
+        "path": "frontend/src/app/not-found.tsx",
+        "route": "/",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-vendor-contract-risk-monitor",
+        "path": "frontend/src/app/not-found.tsx",
+        "route": "/",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      }
+    ]
+  },
+  {
+    "name": "Production Readiness",
+    "canonicalKey": "production readiness",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/ProductionReadiness",
+      "/production-readiness",
+      "production-readiness"
+    ],
+    "sourceProjects": [
+      "AIExportControlSanctionsScreener",
+      "AiRegulatoryCompliance",
+      "ai-agent-governance-control-tower",
+      "ai-product-compliance-evidence-vault",
+      "ai-regulatory-change-impact-mapper",
+      "government_contracts"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/agent-governance-control-tower",
+      "legal-compliance-risk/automatedatagovernance",
+      "legal-compliance-risk/due-diligence-assistant",
+      "legal-compliance-risk/regulatory-compliance"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-agent-governance-control-tower",
+        "path": "frontend/src/app/(protected)/production-readiness/page.tsx",
+        "route": "/production-readiness",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-product-compliance-evidence-vault",
+        "path": "frontend/src/app/(protected)/production-readiness/page.tsx",
+        "route": "/production-readiness",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-regulatory-change-impact-mapper",
+        "path": "frontend/src/app/(protected)/production-readiness/page.tsx",
+        "route": "/production-readiness",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "frontend/src/App.js:165",
+        "route": "/production-readiness",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiRegulatoryCompliance",
+        "path": "frontend/src/pages/ProductionReadiness.jsx",
+        "route": "/ProductionReadiness",
+        "originApp": "legal-compliance-risk/regulatory-compliance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIExportControlSanctionsScreener",
+        "path": "client/src/App.js:867",
+        "route": "/production-readiness",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIExportControlSanctionsScreener",
+        "path": "client/src/pages/ProductionReadiness.jsx",
+        "route": "/ProductionReadiness",
+        "originApp": "legal-compliance-risk/automatedatagovernance"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "government_contracts",
+        "path": "react/src/App.js:41",
+        "route": "production-readiness",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "government_contracts",
+        "path": "react/src/pages/ProductionReadiness.jsx",
+        "route": "/ProductionReadiness",
+        "originApp": "legal-compliance-risk/due-diligence-assistant"
+      }
+    ]
+  },
+  {
+    "name": "Slug",
+    "canonicalKey": "slug",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/[slug]",
+      "/features/[slug]",
+      "/intake/:slug"
+    ],
+    "sourceProjects": [
+      "ai-agent-governance-control-tower",
+      "ai-board-governance-briefing-assistant",
+      "ai-product-compliance-evidence-vault",
+      "ai-regulatory-change-impact-mapper",
+      "ai-software-procurement-negotiator",
+      "ai-vendor-contract-risk-monitor",
+      "legalForms"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/agent-governance-control-tower",
+      "legal-compliance-risk/firmflow-ai-merged",
+      "legal-compliance-risk/vendor-contract-risk-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "legalForms",
+        "path": "routes/leads.js:17",
+        "route": "/intake/:slug",
+        "originApp": "legal-compliance-risk/firmflow-ai-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-agent-governance-control-tower",
+        "path": "frontend/src/app/(protected)/[slug]/page.tsx",
+        "route": "/[slug]",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-agent-governance-control-tower",
+        "path": "frontend/src/app/(protected)/features/[slug]/page.tsx",
+        "route": "/features/[slug]",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-board-governance-briefing-assistant",
+        "path": "frontend/src/app/(protected)/[slug]/page.tsx",
+        "route": "/[slug]",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-board-governance-briefing-assistant",
+        "path": "frontend/src/app/(protected)/features/[slug]/page.tsx",
+        "route": "/features/[slug]",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-product-compliance-evidence-vault",
+        "path": "frontend/src/app/(protected)/[slug]/page.tsx",
+        "route": "/[slug]",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-product-compliance-evidence-vault",
+        "path": "frontend/src/app/(protected)/features/[slug]/page.tsx",
+        "route": "/features/[slug]",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-regulatory-change-impact-mapper",
+        "path": "frontend/src/app/(protected)/[slug]/page.tsx",
+        "route": "/[slug]",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-regulatory-change-impact-mapper",
+        "path": "frontend/src/app/(protected)/features/[slug]/page.tsx",
+        "route": "/features/[slug]",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-software-procurement-negotiator",
+        "path": "frontend/src/app/(protected)/[slug]/page.tsx",
+        "route": "/[slug]",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-software-procurement-negotiator",
+        "path": "frontend/src/app/(protected)/features/[slug]/page.tsx",
+        "route": "/features/[slug]",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-vendor-contract-risk-monitor",
+        "path": "frontend/src/app/(protected)/[slug]/page.tsx",
+        "route": "/[slug]",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-vendor-contract-risk-monitor",
+        "path": "frontend/src/app/(protected)/features/[slug]/page.tsx",
+        "route": "/features/[slug]",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      }
+    ]
+  },
+  {
+    "name": "Source Tables",
+    "canonicalKey": "source table",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/source-tables"
+    ],
+    "sourceProjects": [
+      "ai-agent-governance-control-tower",
+      "ai-board-governance-briefing-assistant",
+      "ai-product-compliance-evidence-vault",
+      "ai-regulatory-change-impact-mapper",
+      "ai-software-procurement-negotiator",
+      "ai-vendor-contract-risk-monitor"
+    ],
+    "consolidatedFromApps": [
+      "legal-compliance-risk/agent-governance-control-tower",
+      "legal-compliance-risk/vendor-contract-risk-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-agent-governance-control-tower",
+        "path": "frontend/src/app/(protected)/source-tables/page.tsx",
+        "route": "/source-tables",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-board-governance-briefing-assistant",
+        "path": "frontend/src/app/(protected)/source-tables/page.tsx",
+        "route": "/source-tables",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-product-compliance-evidence-vault",
+        "path": "frontend/src/app/(protected)/source-tables/page.tsx",
+        "route": "/source-tables",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-regulatory-change-impact-mapper",
+        "path": "frontend/src/app/(protected)/source-tables/page.tsx",
+        "route": "/source-tables",
+        "originApp": "legal-compliance-risk/agent-governance-control-tower"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-software-procurement-negotiator",
+        "path": "frontend/src/app/(protected)/source-tables/page.tsx",
+        "route": "/source-tables",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-vendor-contract-risk-monitor",
+        "path": "frontend/src/app/(protected)/source-tables/page.tsx",
+        "route": "/source-tables",
+        "originApp": "legal-compliance-risk/vendor-contract-risk-monitor"
+      }
+    ]
+  }
+]
