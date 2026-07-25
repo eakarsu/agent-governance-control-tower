@@ -11,10 +11,10 @@
     "ai-product-compliance-evidence-vault",
     "ai-regulatory-change-impact-mapper"
   ],
-  "featureCount": 6,
-  "candidateFeatureCount": 9,
+  "featureCount": 8,
+  "candidateFeatureCount": 11,
   "eliminatedSimilarFeatures": 3,
-  "evidenceCount": 61,
+  "evidenceCount": 68,
   "aiPageCount": 0,
   "sourceAIPageCount": 0,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
@@ -25,6 +25,6 @@
     "seededTables": 0,
     "seededRows": 0
   },
-  "visibleFeatureCount": 6,
+  "visibleFeatureCount": 7,
   "featureVisibilityMode": "source-backed-fallback"
 }
